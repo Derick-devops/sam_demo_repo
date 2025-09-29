@@ -10,6 +10,7 @@ backend "s3" {
 bucket = "derick-terraform-state-bucket"   
 key = "terraform.tfstate"           
 region = "ap-northeast-2" 
+profile = "myprofile"
 encrypt = true 
 } 
 } 
